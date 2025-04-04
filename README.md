@@ -25,5 +25,15 @@ pegar os arquivos csv que vc precisara desses dados para trabalhr com esse usuá
 
 # 5° Passo:
 Configurando o AWS CLI:
-# 5° Passo:
 Comando(aws configure)que vc deve digitar no console dar um enter e fazer o passo a passo que o terminal vai pedindo
+
+# 6° Passo:
+Criar uma bucket simples só para teste na S3 na AWS
+
+# 7° Passo:
+Comandos passo a passo para gerar tudo que o projeto precisa para rodar:
+comando para baixar os modulos: terraform init
+comando mostra que sera criado: terraform plan
+comando para criar a aplicação na AWS: terraform apply
+
+
