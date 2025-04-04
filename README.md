@@ -43,7 +43,7 @@ comando para baixar os modulos: terraform init
 comando mostra que sera criado: terraform plan
 comando para criar a aplicação na AWS: terraform apply
 
-# 8° Passo:
+# 9° Passo:
 Comando para destruir tudo que foi criado na AWS:
 comando para criar a aplicação na AWS: terraform deploy
 
