@@ -31,9 +31,20 @@ Comando(aws configure)que vc deve digitar no console dar um enter e fazer o pass
 Criar uma bucket simples só para teste na S3 na AWS
 
 # 7° Passo:
+Configurar as secrets dentro da sua conta no GitHub:
+AWS_ACCESS_KEY_ID
+AWS_BUCKET_FILE
+AWS_BUCKET_NAME
+AWS_SECRET_ACCESS_KEY
+
+# 8° Passo:
 Comandos passo a passo para gerar tudo que o projeto precisa para rodar:
 comando para baixar os modulos: terraform init
 comando mostra que sera criado: terraform plan
 comando para criar a aplicação na AWS: terraform apply
+
+# 8° Passo:
+Comando para destruir tudo que foi criado na AWS:
+comando para criar a aplicação na AWS: terraform deploy
 
 
